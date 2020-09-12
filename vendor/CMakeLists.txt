@@ -1,0 +1,29 @@
+set(HAL_DRIVER_MODULES
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_pcd
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_pcd_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex
+  vendor/STM32L4xx_HAL_Driver/stm32l4xx_ll_usb
+  vendor/STM32L4xx_HAL_Driver/Legacy/stm32_hal_legacy
+)
+
+set(VENDOR_MODULES ${HAL_DRIVER_MODULES})
